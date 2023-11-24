@@ -1,0 +1,12 @@
+
+
+.container{
+    border-radius: 5px;
+    background-color: slategrey;
+}
+
+.jumbotron{
+    background-image: url(2.jpg);
+    box-sizing: border-box;
+
+}

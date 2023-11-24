@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <title>TIME</title>
+    <link rel="stylesheet" href="style.css">
     <script>
         let a;
         let date;
@@ -28,7 +29,7 @@
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,30 +38,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="Digital clock.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="https://www.google.com/" target="_blank">Link</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
+            
+            
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          
         </div>
       </nav>
 
@@ -68,10 +54,19 @@
       <div class="container my-4">
         <div class="jumbotron">
             <h1 class="display-4"><b>Current time: </b><span id="time"></span></h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p class="lead">Simple Digital Clock</p>
             <hr class="my-4">
             <p>We are here to show you the time for different countries</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Browser Times</a>
+            <li class="nav-item dropdown" type="none">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                <button style="    border-radius: 12px; background-color: slategrey;color: white;">More</button>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.google.com/search?q=india+current+time&oq=india+cur&gs_lcrp=EgZjaHJvbWUqDQgBEAAYgwEYsQMYgAQyBggAEEUYOTINCAEQABiDARixAxiABDIKCAIQABixAxiABDIKCAMQABixAxiABDINCAQQABiDARixAxiABDIKCAUQABixAxiABDIHCAYQABiABDIHCAcQABiABDIKCAgQABixAxiABDIKCAkQABixAxiABNIBCDc3MjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">India</a>
+                <a class="dropdown-item" href="https://www.google.com/search?q=usa+current+time&oq=USA+&gs_lcrp=EgZjaHJvbWUqDwgCEAAYQxixAxiABBiKBTIGCAAQRRg5MhIIARAAGEMYgwEYsQMYgAQYigUyDwgCEAAYQxixAxiABBiKBTIPCAMQABhDGLEDGIAEGIoFMgwIBBAAGEMYgAQYigUyDAgFEAAYQxiABBiKBTIMCAYQABhDGIAEGIoFMgwIBxAAGEMYgAQYigUyDAgIEAAYQxiABBiKBTIUCAkQABgKGEMYgwEYsQMYgAQYigXSAQgyNjk1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">USA</a>
+                <a class="dropdown-item" href="https://www.google.com/search?q=japan+current+time&oq=japan+current+&gs_lcrp=EgZjaHJvbWUqDwgBEAAYFBiHAhixAxiABDIGCAAQRRg5Mg8IARAAGBQYhwIYsQMYgAQyDAgCEAAYFBiHAhiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCTI4MzI5ajBqOagCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">Japan</a>
+              </div>
+            </li>
           </div>
       </div>
 
